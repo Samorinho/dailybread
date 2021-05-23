@@ -28,7 +28,7 @@ export default function App() {
     if (colorScheme === "dark") {
       setIsThemeDark(true);
     }
-  });
+  }, []);
 
   return (
     <themeSwitcher.Provider value={preferences}>

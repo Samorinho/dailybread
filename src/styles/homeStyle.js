@@ -21,7 +21,7 @@ export const homeStyle = StyleSheet.create({
   icons: {
     flexDirection: "row",
     alignContent: "space-between",
-    margin: 10
+    padding: 10
   },
   btn: {
     margin: 5,
@@ -70,4 +70,20 @@ export const homeStyle = StyleSheet.create({
     borderTopRightRadius: 5,
     marginRight: 10
   },
+  surfaceC: {
+    height: 30,
+    // width: 80,
+    alignItems: "center",
+    justifyContent: "center",
+    elevation: 4,
+    backgroundColor: "#58664A",
+    borderBottomLeftRadius: 5,
+    borderBottomRightRadius: 5,
+    borderTopLeftRadius: 5,
+    borderTopRightRadius: 5,
+    marginRight: 10
+  },
+  margin: {
+    marginBottom: 20
+  }
 });

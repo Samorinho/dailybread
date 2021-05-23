@@ -13,6 +13,10 @@ export const CombinedDefaultTheme = {
   colors: {
     ...PaperDefaultTheme.colors,
     ...NavigationDefaultTheme.colors,
+    // background: "#E1C699",
+    iconMenu: "#C19A6B",
+    iconMenuOff: "#A1A1A1",
+    orange: "#ECB538",
   },
 };
 
@@ -22,5 +26,10 @@ export const CombinedDarkTheme = {
   colors: {
     ...PaperDarkTheme.colors,
     ...NavigationDarkTheme.colors,
+    background: "#424242",
+    iconMenu: "#C19A6B",
+    iconMenuOff: "#A1A1A1",
+    surface: "#2D2C2C",
+    orange: "#ECB538",
   },
 };
